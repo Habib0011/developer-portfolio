@@ -11,6 +11,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -23,14 +24,18 @@ section{
 }
 .link-button{
     text-decoration: none;
-   background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     color: white;
     font-weight: 700;
 }
 .top-baneer{
      background-image: url(images/ad.jpg);
      
-   
+}
+.dream-big{
+    background-image: url(images/ae.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
